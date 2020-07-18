@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		6B2F19F12475A61D0058ED5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F19F02475A61D0058ED5B /* AppDelegate.swift */; };
 		6B2F19F32475A61D0058ED5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F19F22475A61D0058ED5B /* SceneDelegate.swift */; };
-		6B2F19F52475A61D0058ED5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F19F42475A61D0058ED5B /* ContentView.swift */; };
 		6B2F19F72475A61E0058ED5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2F19F62475A61E0058ED5B /* Assets.xcassets */; };
 		6B2F19FA2475A61E0058ED5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2F19F92475A61E0058ED5B /* Preview Assets.xcassets */; };
 		6B2F19FD2475A61E0058ED5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2F19FB2475A61E0058ED5B /* LaunchScreen.storyboard */; };
+		6B2F1A092475AD230058ED5B /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1A082475AD230058ED5B /* Predicate.swift */; };
+		6B2F1A0B2475AF3B0058ED5B /* PredicateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1A0A2475AF3B0058ED5B /* PredicateRow.swift */; };
+		6B2F1A0D2475B0BB0058ED5B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1A0C2475B0BB0058ED5B /* Data.swift */; };
+		6B2F1A112475B7850058ED5B /* PredicateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1A102475B7850058ED5B /* PredicateDetail.swift */; };
+		6B2F1A132475CFFA0058ED5B /* PredicateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1A122475CFFA0058ED5B /* PredicateList.swift */; };
+		6B84631F24A479D300D87E47 /* PredicateCheckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84631E24A479D300D87E47 /* PredicateCheckList.swift */; };
+		6B84632124A47A0900D87E47 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B84632024A47A0900D87E47 /* CheckListView.swift */; };
+		6BA913CE24B19779002CFFF1 /* predicates3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BA913CD24B19779002CFFF1 /* predicates3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B2F19ED2475A61D0058ED5B /* Court Evidence Predicates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Court Evidence Predicates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2F19ED2475A61D0058ED5B /* Court Evidence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Court Evidence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2F19F02475A61D0058ED5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B2F19F22475A61D0058ED5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B2F19F42475A61D0058ED5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B2F19F62475A61E0058ED5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2F19F92475A61E0058ED5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B2F19FC2475A61E0058ED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B2F19FE2475A61E0058ED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2F1A082475AD230058ED5B /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		6B2F1A0A2475AF3B0058ED5B /* PredicateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateRow.swift; sourceTree = "<group>"; };
+		6B2F1A0C2475B0BB0058ED5B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		6B2F1A102475B7850058ED5B /* PredicateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateDetail.swift; sourceTree = "<group>"; };
+		6B2F1A122475CFFA0058ED5B /* PredicateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateList.swift; sourceTree = "<group>"; };
+		6B84631E24A479D300D87E47 /* PredicateCheckList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateCheckList.swift; sourceTree = "<group>"; };
+		6B84632024A47A0900D87E47 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		6BA913CD24B19779002CFFF1 /* predicates3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = predicates3.json; path = ../../../../Downloads/predicates3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +62,7 @@
 		6B2F19EE2475A61D0058ED5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B2F19ED2475A61D0058ED5B /* Court Evidence Predicates.app */,
+				6B2F19ED2475A61D0058ED5B /* Court Evidence.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +72,10 @@
 			children = (
 				6B2F19F02475A61D0058ED5B /* AppDelegate.swift */,
 				6B2F19F22475A61D0058ED5B /* SceneDelegate.swift */,
-				6B2F19F42475A61D0058ED5B /* ContentView.swift */,
+				6B2F1A072475AC4C0058ED5B /* Resources */,
+				6B2F1A062475AC3F0058ED5B /* Model */,
+				6B2F1A052475AC270058ED5B /* Data */,
+				6B2F1A042475AC010058ED5B /* Views */,
 				6B2F19F62475A61E0058ED5B /* Assets.xcassets */,
 				6B2F19FB2475A61E0058ED5B /* LaunchScreen.storyboard */,
 				6B2F19FE2475A61E0058ED5B /* Info.plist */,
@@ -73,6 +90,42 @@
 				6B2F19F92475A61E0058ED5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B2F1A042475AC010058ED5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1A122475CFFA0058ED5B /* PredicateList.swift */,
+				6B2F1A0A2475AF3B0058ED5B /* PredicateRow.swift */,
+				6B2F1A102475B7850058ED5B /* PredicateDetail.swift */,
+				6B84631E24A479D300D87E47 /* PredicateCheckList.swift */,
+				6B84632024A47A0900D87E47 /* CheckListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B2F1A052475AC270058ED5B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1A0C2475B0BB0058ED5B /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6B2F1A062475AC3F0058ED5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F1A082475AD230058ED5B /* Predicate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B2F1A072475AC4C0058ED5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BA913CD24B19779002CFFF1 /* predicates3.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +145,7 @@
 			);
 			name = "Court Evidence Predicates";
 			productName = "Court Evidence Predicates";
-			productReference = 6B2F19ED2475A61D0058ED5B /* Court Evidence Predicates.app */;
+			productReference = 6B2F19ED2475A61D0058ED5B /* Court Evidence.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA913CE24B19779002CFFF1 /* predicates3.json in Resources */,
 				6B2F19FD2475A61E0058ED5B /* LaunchScreen.storyboard in Resources */,
 				6B2F19FA2475A61E0058ED5B /* Preview Assets.xcassets in Resources */,
 				6B2F19F72475A61E0058ED5B /* Assets.xcassets in Resources */,
@@ -147,8 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2F19F12475A61D0058ED5B /* AppDelegate.swift in Sources */,
+				6B2F1A0D2475B0BB0058ED5B /* Data.swift in Sources */,
 				6B2F19F32475A61D0058ED5B /* SceneDelegate.swift in Sources */,
-				6B2F19F52475A61D0058ED5B /* ContentView.swift in Sources */,
+				6B2F1A132475CFFA0058ED5B /* PredicateList.swift in Sources */,
+				6B2F1A112475B7850058ED5B /* PredicateDetail.swift in Sources */,
+				6B84632124A47A0900D87E47 /* CheckListView.swift in Sources */,
+				6B2F1A0B2475AF3B0058ED5B /* PredicateRow.swift in Sources */,
+				6B84631F24A479D300D87E47 /* PredicateCheckList.swift in Sources */,
+				6B2F1A092475AD230058ED5B /* Predicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +353,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "acs4legal.Court-Evidence-Predicates";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACS4LEGAL.EvidFoundations;
+				PRODUCT_NAME = "Court Evidence";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,10 +374,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "acs4legal.Court-Evidence-Predicates";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACS4LEGAL.EvidFoundations;
+				PRODUCT_NAME = "Court Evidence";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
